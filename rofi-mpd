@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
+# Origin: https://github.com/samedamci/rofi-mpd
+# TODO: Add playlists select mode
+# chg screens
 
 m() { rofi -dmenu -i "$@" ;}
 mb() { rofi -dmenu -i -kb-custom-1 "Alt+q" "$@" ;}

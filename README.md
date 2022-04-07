@@ -1,16 +1,12 @@
 # mpd-menu
 
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/samedamci/rofi-mpd?label=ver&logo=github&style=for-the-badge)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/anokata/rofi-mpd?label=ver&logo=github&style=for-the-badge)
 
 ## Description
 Simple mpd client in rofi.
 
 ## Screenshots
 ![scr1](./screenshot1.png)
-
-![scr2](./screenshot2.png)
-
-![scr3](./screenshot3.png)
 
 ## Installation
 ### From AUR (Arch Linux)
