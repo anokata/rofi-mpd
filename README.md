@@ -15,27 +15,27 @@ yay -S rofi-mpd
 ```
 
 ### From source
-### Dependencies
+#### Dependencies
 Package | Description
 :--- | :---
 rofi | application menu, dmenu replacement
 mpd | music player daemon
 mpc | CLI client for mpd
 
-### Install dependencies
-#### Arch Linux
+#### Install dependencies
+##### Arch Linux
 ```
 sudo pacman -S --needed rofi mpd mpc
 ```
-#### Debian/Ubuntu
+##### Debian/Ubuntu
 ```
 sudo apt install rofi mpd mpc
 ```
-#### Fedora
+##### Fedora
 ```
 sudo dnf install rofi mpd mpc
 ```
-#### openSUSE
+##### openSUSE
 ```
 sudo zypper in rofi mpd mpc
 ```
@@ -44,5 +44,5 @@ sudo zypper in rofi mpd mpc
 git clone https://github.com/samedamci/rofi-mpd
 ```
 
-### Usage
+## Usage
 Use `./rofi-mpd` with `--help` or `-h` flag to get help.
