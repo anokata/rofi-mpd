@@ -41,7 +41,7 @@ sudo zypper in rofi mpd mpc
 ```
 ### Clone repository
 ```
-git clone https://github.com/samedamci/rofi-mpd
+git clone https://github.com/anokata/rofi-mpd
 ```
 
 ## Usage
