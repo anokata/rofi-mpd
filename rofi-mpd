@@ -5,6 +5,9 @@
 #    search all files names 
 #       / track
 # chg screens
+# lsplaylists 
+# playlist
+# load
 
 m() { rofi -dmenu -i "$@" ;}
 mb() { rofi -dmenu -i -kb-custom-1 "Alt+q" "$@" ;}
@@ -32,6 +35,19 @@ song() {
   lines="$(mpc list title | wc -l)"
   [ "$lines" -gt 30 ] && lines=30
   mpc list title | sort -f | mb -p "Song" -l 30
+}
+
+lsplaylists() {
+  lines="$(mpc lsplaylists | wc -l)"
+  [ "$lines" -gt 30 ] && lines=30
+  mpc lsplaylists | sort -f | mb -p "Playlists" -l 30
+}
+
+playlist() {
+  playlist="$1"
+  lines="$(mpc playlist "$playlist" | wc -l)"
+  [ "$lines" -gt 30 ] && lines=30
+  mpc playlist "$playlist" | sort -f | mb -p "Song" -l 30
 }
 
 filename() {
